@@ -1,8 +1,7 @@
 package com.example.likhith.milkcalculator;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -64,10 +63,10 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         switch(view.getId())
         {
             case R.id.b1:
-                double a = (Double.parseDouble(num1)*37.25)+(Double.parseDouble(num2)*41)+(Double.parseDouble(num3));
+                double a = (Double.parseDouble(num1)*37.25)+(Double.parseDouble(num2)*45)+(Double.parseDouble(num3));
                 tvresult.setText(String.valueOf(a));
                 tvresult1.setText(String.valueOf(Double.parseDouble(num1)*37.25));
-                tvresult2.setText(String.valueOf(Double.parseDouble(num2)*41));
+                tvresult2.setText(String.valueOf(Double.parseDouble(num2)*45));
                 tvresult3.setText(String.valueOf(Double.parseDouble(num3)));
                 break;
 

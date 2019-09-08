@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch(view.getId())
         {
             case R.id.b1:
-                double a = (Double.parseDouble(num1)*36)+(Double.parseDouble(num2)*42)+(Double.parseDouble(num3)*40)+(Double.parseDouble(num4)*39)+(Double.parseDouble(num5)*21)+(Double.parseDouble(num7)*22)+(Double.parseDouble(num8)*9)+(Double.parseDouble(num10)*50)+(Double.parseDouble(num9));
+                double a = (Double.parseDouble(num1)*36)+(Double.parseDouble(num2)*42)+(Double.parseDouble(num3)*40)+(Double.parseDouble(num4)*39)+(Double.parseDouble(num5)*21)+(Double.parseDouble(num7)*24)+(Double.parseDouble(num8)*9)+(Double.parseDouble(num10)*50)+(Double.parseDouble(num9));
                 tvresult.setText(String.valueOf(a));
                 tvresult1.setText(String.valueOf(Double.parseDouble(num1)*36));
                 tvresult2.setText(String.valueOf(Double.parseDouble(num2)*42));
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tvresult4.setText(String.valueOf(Double.parseDouble(num4)*39));
                 tvresult5.setText(String.valueOf(Double.parseDouble(num5)*21));
                // tvresult6.setText(String.valueOf(Double.parseDouble(num6)*10));
-                tvresult7.setText(String.valueOf(Double.parseDouble(num7)*22));
+                tvresult7.setText(String.valueOf(Double.parseDouble(num7)*24));
                 tvresult8.setText(String.valueOf(Double.parseDouble(num8)*9));
                 tvresult9.setText(String.valueOf(Double.parseDouble(num9)));
                 tvresult10.setText(String.valueOf(Double.parseDouble(num10)*50));
